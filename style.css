@@ -1,0 +1,343 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans Narrow';
+}
+header {
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #161C2A;
+	display: flex;
+	justify-content: center;
+}
+.header img {
+	height: 50px;
+}
+.nav-menu {
+	width: 100%;
+	height: 40px;
+	background-color: #141925;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-menu a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.hero {
+	width: 100%;
+	height: 30rem;
+	background-image: url(hero.jpeg);
+	background-size: cover;
+	margin-top: 80px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+.hero-container #h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-spacing: 2px;
+	color: white;
+	font-family: "Playfair Display", serif;
+}
+.hero-container #p {
+	font-family: 'PT Sans Narrow';
+	color: white;
+}
+.hero-container > button {
+	margin-top: 80px;
+}
+.hero-container button {
+	padding: 5px 50px;
+	background: none;
+	color: white;
+	border: 1px solid white;
+	font-size: 1.2rem;
+}
+.profile {
+	Width: 100%;
+	height: 25rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: rows;
+	background-image: url(profile.jpeg);
+	background-size: cover;
+}
+.profile-container {
+	margin: 20px;
+	width: 100%;
+}
+
+.profile-container #h2{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #343434;
+	font-family: "Playfair Display", serif;
+}
+.profile-container #p {
+	color: #242424;
+	font-family: 'PT Sans Narrow';
+}
+#bg-white {
+	background-color: white;
+}
+#bg-navy {
+	
+	text-decoration: underline;
+}
+.vision {
+	width: 100%;
+	height: 15rem;
+	display: flex;
+	justify-content: space-around;
+	background-image: url(hero.jpeg);
+	background-size: cover;
+}
+.vision .card-1 {
+	height: 100%;
+	width: 49%;
+	border-radius: 20px;
+}
+.card-1 .card-1-container {
+	margin: 20px;
+}
+.card-1-container .h1 {
+	color: white;
+	font-family: "Playfair Display", serif;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	text-align: center;
+}
+.card-1-container .p {
+	color: white;
+	font-family: 'PT Sans Narrow';
+	font-size: 0.9rem;
+}
+.services {
+	width: 100%;
+	height: 15rem;
+}
+.services-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.content-1 {
+	width: 200px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border: 0.5px solid #ccc;
+	border-radius: 25px;
+}
+.services-container i {
+	color: #161C2A;
+	border-radius: 50px;
+	font-size: 1.4rem;
+}
+
+.services-container .description {
+	color: #161C2A;
+	font-size: 1rem;
+	font-family: "PT Sans Narrow";
+	text-align: center;
+	font-weight: bolder;
+}
+.services-header {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services-header #h1 {
+	color: #323232;
+	font-family: "Playfair Display";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.portfolio-header {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #181818;
+}
+.portfolio-header #h1 {
+	color: white;
+	font-family: "Playfair Display";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.portfolio {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: black;
+}
+.portfolio-1 {
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(portfolio1.jpeg);
+	background-size: cover;
+	width: 100%;
+	height: 30rem;
+	background-position: center;
+	background-opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.portfolio-1 > button {
+	margin-top: 40px;
+}
+.portfolio-1 .h1 {
+	opacity: 1;
+	font-family: "Playfair Display";
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+.portfolio-1 .description {
+	opacity: 1;
+	font-family: "PT Sans Narrow";
+	font-size: 1rem;
+	color: white;
+	max-width: 200px;
+	text-align: center;
+}
+.portfolio-1 button {
+	font-size: 1.2rem;
+	color: white;
+	border: 2px solid white;
+	padding: 5px 30px;
+	background: none;
+}
+.portfolio-2 {
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(portfolio2.jpeg);
+	background-size: cover;
+	width: 100%;
+	height: 30rem;
+	background-position: center;
+	background-opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.portfolio-2 > button {
+	margin-top: 40px;
+}
+.portfolio-2 .h1 {
+	opacity: 1;
+	font-family: "Playfair Display";
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+.portfolio-2 .description {
+	opacity: 1;
+	font-family: "PT Sans Narrow";
+	font-size: 1rem;
+	color: white;
+	max-width: 200px;
+	text-align: center;
+}
+.portfolio-2 button {
+	font-size: 1.2rem;
+	color: white;
+	border: 2px solid white;
+	padding: 5px 30px;
+	background: none;
+}
+.footer {
+	width: 100%;
+	background: #161C2A;
+	display: flex;
+	flex-direction: column;
+	height: 20rem;
+}
+.footer .h1 {
+	color: white;
+	font-family: "Playfair Display";
+	font-size: 3rem;
+}
+.footer-container {
+	color: white;
+	font-family: "PT Sans Narrow";
+	margin-left: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: #161C2A;
+	width: 100%;
+	height: 75px;
+	z-index: 999;
+	display: flex;
+	font-family: "PT Sans Narrow";
+}
+.footer-container2 {
+	margin: 5px;
+	border: 2px solid #ccc;
+	height: 65px;
+	width: 100%;
+	color: white;
+	font-family: "PT Sans Narrow";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: rows;
+	font-weight: lighter;
+	border-radius: 25px;
+	font-size: 1.4rem;
+}
+
+.light {
+	font-family: Serif;
+}
+.light2 {
+	font-family: Serif;
+	font-weight: lighter;
+}
+.fa-brands-fa-whatsapp {
+	color: green;
+	background: green;
+}
